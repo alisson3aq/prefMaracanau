@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="fHh Lpr fFf">
+  <q-layout view="lHh LpR lFr">
     <!-- Be sure to play with the Layout demo on docs -->
 
     <!-- (Optional) The Header -->
@@ -47,7 +47,6 @@
       class="lt-sm"
       v-model="leftDrawerOpen"
       show-if-above
-      width="304"
       bordered
       content-class="bg-grey-1"
     >
