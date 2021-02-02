@@ -9,7 +9,7 @@
           size="40px"
           color="primary"
           icon="las la-university"
-          to="/Prereitura"
+          to="/Prefeitura"
         />
         <div
           class="text-primary text-uppercase row justify-center items-center"
@@ -26,7 +26,7 @@
           size="40px"
           color="primary"
           icon="mdi-road-variant"
-          to="/Main"
+          to="/hole"
         />
         <div
           class="text-primary text-uppercase row justify-center items-center"
@@ -43,7 +43,7 @@
           size="40px"
           color="primary"
           icon="mdi-tree-outline"
-          to="/Main"
+          to="/pruning"
         />
         <div
           class="text-primary text-uppercase row justify-center items-center"
@@ -62,13 +62,13 @@
           size="40px"
           color="primary"
           icon="lar la-trash-alt"
-          to="/Main"
+          to="/cleaning"
         />
         <div
           class="text-primary text-uppercase row justify-center items-center"
           style="margin-top: -12px; font-size: 0.8rem; text-align: center"
         >
-          Limpeza de Ária Pública
+          Limpeza de Área Pública
         </div>
       </div>
       <div class="col">
@@ -79,7 +79,7 @@
           size="40px"
           color="primary"
           icon="las la-recycle"
-          to="/Main"
+          to="/collectTrash"
         />
         <div
           class="text-primary text-uppercase row justify-center items-center"
@@ -96,13 +96,13 @@
           size="40px"
           color="primary"
           icon="mdi-home-search-outline"
-          to="/Main"
+          to="/inspectvs"
         />
         <div
           class="text-primary text-uppercase row justify-center items-center"
           style="margin-top: -12px; font-size: 0.7rem; text-align: center"
         >
-          fiscalização da vigilância sanitaria
+          fiscalização vigilância sanitaria
         </div>
       </div>
     </div>
@@ -115,7 +115,7 @@
           size="40px"
           color="primary"
           icon="las la-assistive-listening-systems"
-          to="/Main"
+          to="/noisePollution"
         />
         <div
           class="text-primary text-uppercase row justify-center items-center"
@@ -132,7 +132,7 @@
           size="40px"
           color="primary"
           icon="las la-directions"
-          to="/Main"
+          to="/signaling"
         />
         <div
           class="text-primary text-uppercase row justify-center items-center"
@@ -149,7 +149,7 @@
           size="40px"
           color="primary"
           icon="departure_board"
-          to="/Main"
+          to="/busLine"
         />
         <div
           class="text-primary text-uppercase row justify-center items-center"
@@ -168,7 +168,7 @@
           size="40px"
           color="primary"
           icon="las la-bug"
-          to="/Main"
+          to="/pests"
         />
         <div
           class="text-primary text-uppercase row justify-center items-center"
@@ -178,15 +178,6 @@
         </div>
       </div>
       <div class="col">
-        <q-btn
-          style="z-index: 3"
-          flat
-          class="row justify-center items-center"
-          size="40px"
-          color="primary"
-          icon=""
-          to="/Main"
-        />
         <div
           class="text-primary text-uppercase row justify-center items-center"
           style="margin-top: -12px; font-size: 0.8rem; text-align: center"
@@ -200,7 +191,7 @@
           size="40px"
           color="primary"
           icon="ti-comments"
-          to="/Main"
+          to="/socialNetworks"
         />
         <div
           class="text-primary text-uppercase row justify-center items-center"

@@ -15,12 +15,52 @@ const routes = [
         component: () => import('pages/Profile.vue'),
       },
       {
+        path: '/hole',
+        component: () => import('pages/Hole.vue'),
+      },
+      {
+        path: '/pruning',
+        component: () => import('pages/Pruning.vue'),
+      },
+      {
+        path: '/cleaning',
+        component: () => import('pages/Cleaning.vue'),
+      },
+      {
+        path: '/collectTrash',
+        component: () => import('pages/CollectTrash.vue'),
+      },
+      {
+        path: '/inspectvs',
+        component: () => import('pages/Inspectvs.vue'),
+      },
+      {
+        path: '/noisePollution',
+        component: () => import('pages/NoisePollution.vue'),
+      },
+      {
+        path: '/signaling',
+        component: () => import('pages/Signaling.vue'),
+      },
+      {
+        path: '/busLine',
+        component: () => import('pages/BusLine.vue'),
+      },
+      {
+        path: '/socialNetworks',
+        component: () => import('pages/SocialNetworks.vue'),
+      },
+      {
+        path: '/pests',
+        component: () => import('pages/Pests.vue'),
+      },
+      {
         path: '/about',
         component: () => import('pages/About.vue'),
       },
       {
-        path: '/Prereitura',
-        component: () => import('pages/Prereitura.vue'),
+        path: '/Prefeitura',
+        component: () => import('pages/Prefeitura.vue'),
       }
     ]
   },

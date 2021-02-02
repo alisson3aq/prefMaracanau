@@ -1,11 +1,14 @@
 <template>
   <q-page padding>
-    <span class="text-uppercase text-h4 text-secondary"> Prefeitura </span>
-    <q-separator />
-    <span class="text-weight-thin">
+    <span class="text-uppercase text-h5 text-secondary q-pa-md" style="max-width: 600px">
+      Prefeitura
+    </span>
+    <q-separator class="text-indigo-2" />
+    <span class="text-weight-light q-pa-md" style="max-width: 600px">
       R. 1, 652 - Novo Maracanaú, Maracanaú - CE, 61939-160
     </span>
-    <div class="q-pa-md" style="max-width: 600px">
+
+    <div class="q-pa-md" style="max-width: 600px; z-index: 9">
       <q-list>
         <q-expansion-item
           popup
@@ -105,7 +108,7 @@
           <q-separator />
           <q-card>
             <q-card-section>
-              <span class="text-uppercase text-weight-thin text-subtitle1 text-green-9">
+              <span class="text-uppercase text-weight-thin text-subtitle1 text-secondary">
                 Contato
               </span>
               <q-separator />
@@ -148,6 +151,17 @@
         <q-route-tab icon="assignment" to="/some/other/route" replace label="Other Tab" />
       </q-tabs>-->
     </q-footer>
+    <img
+      src="./../assets/Maracanau_ave_maracana.svg"
+      style="
+        width: 210vw;
+        opacity: 0.3;
+        position: fixed;
+        left: -60vw;
+        top: 13vh;
+        z-index: -1;
+      "
+    />
   </q-page>
 </template>
 

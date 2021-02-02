@@ -110,8 +110,8 @@ module.exports = function (/* ctx */) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: `Prefeitura Maracanaú`,
-        short_name: `Prefeitura Maracanaú`,
+        name: `Prefeitura de Maracanaú`,
+        short_name: `Prefeitura de Maracanaú`,
         description: `Aplicatido para prefeitura de Maracanaú`,
         scope: "/",
         start_url: "/",

@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh LpR lFr">
+  <q-layout view="lHh Lpr fFf">
     <!-- Be sure to play with the Layout demo on docs -->
 
     <!-- (Optional) The Header -->
@@ -20,7 +20,7 @@
               <div class="row justify-around items-center" style="">
                 <img
                   src="./../assets/Maracanau_BrasaoConpNovo.svg"
-                  class="q-pa-sm q-mt-lg q-mb-xl"
+                  class="q-pa-sm q-mt-lg q-mb-md"
                   width="100%"
                   style=""
                 />
