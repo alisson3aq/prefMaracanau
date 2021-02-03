@@ -5,7 +5,9 @@
     </span>
     <q-separator class="text-indigo-2" />
     <span class="text-weight-light q-pa-md" style="max-width: 600px"> </span>
-    <div class="q-pa-md" style="max-width: 600px"></div>
+    <div class="q-pa-md" style="max-width: 600px">
+
+    </div>
 
     <q-footer class="bg-white text-primary">
       <q-tabs danse indicator-color="primary" class="">
