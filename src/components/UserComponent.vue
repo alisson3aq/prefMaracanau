@@ -4,7 +4,7 @@
       <q-item-section avatar>
         <q-avatar size="70px" class="shadow-4">
           <img
-            src="https://cdn.quasar.dev/img/boy-avatar.png"
+            src="https://cdn.quasar.dev/img/avatar1.jpg"
             style="border: 0.07em solid green"
           />
         </q-avatar>

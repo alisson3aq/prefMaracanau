@@ -6,7 +6,7 @@
       <div class="col-4">
         <q-img
           class="flex flex-center row justify-center rounded-borders"
-          src="https://cdn.quasar.dev/img/boy-avatar.png"
+          src="https://cdn.quasar.dev/img/avatar1.jpg"
           spinner-color="secondary"
           style="height: 120px; max-width: 120px"
         />
@@ -65,117 +65,119 @@
       Minhas Solicitações
       <q-separator class="" />
     </p>
-    <div class="q-gutter-md" style="max-width: 600px">
-      <q-card bordered class="my-card">
-        <q-card-section horizontal>
-          <q-card-section class="col-7 q-pt-xs">
-            <div class="text-overline">Serviço Solicitado</div>
-            <div class="text-h6 q-mt-xs q-mb-xs">Dados</div>
-            <div class="text-caption text-grey-8">
-              <p>
-                <span>
-                  <q-icon
-                    name="mdi-chart-donut"
-                    class="text-secondary"
-                    style="font-size: 2em"
-                  />
-                </span>
-                <span> 01/01/2021</span>
-              </p>
-              <p>
-                <span>
-                  <q-icon
-                    name="mdi-information-outline"
-                    class="text-secondary"
-                    style="font-size: 2em"
-                  />
-                </span>
-                <span> Em Análise</span>
-              </p>
-            </div>
-          </q-card-section>
+    <div class="q-mx-xs" style="max-width: 600px">
+      <q-scroll-area style="height: 45vh">
+        <q-card bordered class="my-card q-mt-xs q-mb-md">
+          <q-card-section horizontal>
+            <q-card-section class="col-7 q-pt-xs">
+              <div class="text-overline">Serviço Solicitado</div>
+              <div class="text-h6 q-mt-xs q-mb-xs">Dados</div>
+              <div class="text-caption text-grey-8">
+                <p>
+                  <span>
+                    <q-icon
+                      name="mdi-chart-donut"
+                      class="text-secondary"
+                      style="font-size: 2em"
+                    />
+                  </span>
+                  <span> 01/01/2021</span>
+                </p>
+                <p>
+                  <span>
+                    <q-icon
+                      name="mdi-information-outline"
+                      class="text-secondary"
+                      style="font-size: 2em"
+                    />
+                  </span>
+                  <span> Em Análise</span>
+                </p>
+              </div>
+            </q-card-section>
 
-          <q-card-section class="col-5 flex flex-center">
-            <div class="row q-mx-md" style="z-index: 9">
-              <div class="col">
-                <q-icon
-                  name="mdi-road-variant"
-                  class="row justify-end text-secondary q-mb-sm"
-                  style="font-size: 5rem; left: 7%; text-align: center"
-                />
-                <div
-                  class="text-secondary text-uppercase row justify-center items-center"
-                  style="margin-top: -7px; font-size: 0.8rem; text-align: center"
-                >
-                  Buraco em Via Pública
+            <q-card-section class="col-5 flex flex-center">
+              <div class="row q-mx-md" style="z-index: 9">
+                <div class="col">
+                  <q-icon
+                    name="mdi-road-variant"
+                    class="row justify-end text-secondary q-mb-sm"
+                    style="font-size: 5rem; left: 7%; text-align: center"
+                  />
+                  <div
+                    class="text-secondary text-uppercase row justify-center items-center"
+                    style="margin-top: -7px; font-size: 0.8rem; text-align: center"
+                  >
+                    Buraco em Via Pública
+                  </div>
                 </div>
               </div>
-            </div>
-          </q-card-section>
-        </q-card-section>
-
-        <q-separator />
-
-        <q-card-actions>
-          <q-btn flat round icon="mdi-file-eye-outline" />
-          <q-btn flat color="primary">Detalhas</q-btn>
-        </q-card-actions>
-      </q-card>
-      <q-card bordered class="my-card">
-        <q-card-section horizontal>
-          <q-card-section class="col-7 q-pt-xs">
-            <div class="text-overline">Serviço Solicitado</div>
-            <div class="text-h6 q-mt-xs q-mb-xs">Dados</div>
-            <div class="text-caption text-grey-8">
-              <p>
-                <span>
-                  <q-icon
-                    name="mdi-chart-donut"
-                    class="text-secondary"
-                    style="font-size: 2em"
-                  />
-                </span>
-                <span> 01/01/2021</span>
-              </p>
-              <p>
-                <span>
-                  <q-icon
-                    name="mdi-information-outline"
-                    class="text-secondary"
-                    style="font-size: 2em"
-                  />
-                </span>
-                <span> Em Análise</span>
-              </p>
-            </div>
+            </q-card-section>
           </q-card-section>
 
-          <q-card-section class="col-5 flex flex-center">
-            <div class="row q-mx-md" style="z-index: 9">
-              <div class="col">
-                <q-icon
-                  name="las la-directions"
-                  class="row justify-end text-secondary q-mb-sm"
-                  style="font-size: 5rem; left: 7%; text-align: center"
-                />
-                <div
-                  class="text-secondary text-uppercase row justify-center items-center"
-                  style="margin-top: -7px; font-size: 0.8rem; text-align: center"
-                >
-                  Sinalização de Ruas
+          <q-separator />
+
+          <q-card-actions>
+            <q-btn flat round icon="mdi-file-eye-outline" />
+            <q-btn flat color="primary">Detalhas</q-btn>
+          </q-card-actions>
+        </q-card>
+        <q-card bordered class="my-card q-mt-xs q-mb-md">
+          <q-card-section horizontal>
+            <q-card-section class="col-7 q-pt-xs">
+              <div class="text-overline">Serviço Solicitado</div>
+              <div class="text-h6 q-mt-xs q-mb-xs">Dados</div>
+              <div class="text-caption text-grey-8">
+                <p>
+                  <span>
+                    <q-icon
+                      name="mdi-chart-donut"
+                      class="text-secondary"
+                      style="font-size: 2em"
+                    />
+                  </span>
+                  <span> 01/01/2021</span>
+                </p>
+                <p>
+                  <span>
+                    <q-icon
+                      name="mdi-information-outline"
+                      class="text-secondary"
+                      style="font-size: 2em"
+                    />
+                  </span>
+                  <span> Em Análise</span>
+                </p>
+              </div>
+            </q-card-section>
+
+            <q-card-section class="col-5 flex flex-center">
+              <div class="row q-mx-md" style="z-index: 9">
+                <div class="col">
+                  <q-icon
+                    name="las la-directions"
+                    class="row justify-end text-secondary q-mb-sm"
+                    style="font-size: 5rem; left: 7%; text-align: center"
+                  />
+                  <div
+                    class="text-secondary text-uppercase row justify-center items-center"
+                    style="margin-top: -7px; font-size: 0.8rem; text-align: center"
+                  >
+                    Sinalização de Ruas
+                  </div>
                 </div>
               </div>
-            </div>
+            </q-card-section>
           </q-card-section>
-        </q-card-section>
 
-        <q-separator />
+          <q-separator />
 
-        <q-card-actions>
-          <q-btn flat round icon="mdi-file-eye-outline" />
-          <q-btn flat color="primary">Detalhas</q-btn>
-        </q-card-actions>
-      </q-card>
+          <q-card-actions>
+            <q-btn flat round icon="mdi-file-eye-outline" />
+            <q-btn flat color="primary">Detalhas</q-btn>
+          </q-card-actions>
+        </q-card>
+      </q-scroll-area>
     </div>
 
     <q-footer class="bg-white text-secondary">
