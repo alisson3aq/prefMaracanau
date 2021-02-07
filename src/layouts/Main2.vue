@@ -67,6 +67,7 @@
 <script>
 import EssentialLink from "components/EssentialLink.vue";
 import UserComponent from "src/components/UserComponent.vue";
+import Solicitacoes from "components/Solicitacoes";
 
 const linksData = [
   {
