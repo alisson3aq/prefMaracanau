@@ -3,24 +3,42 @@
     <q-input v-model="text" filled label="Descrição" type="textarea" />
 
     <div class="row q-mt-sm">
-      <div class="col flex flex-center">
+      <div class="col">
         <q-btn
-          icon="mdi-camera-plus-outline"
+          style="z-index: 3; left: 12%"
           flat
-          class="q-pa-xs q-mt-lg text-secondary"
-          style="font-size: 2rem"
+          class="row justify-center items-center"
+          size="50px"
+          color="primary"
+          icon="las la-camera"
         />
-        <div class="text-secondary text-uppercase">Envia Foto</div>
+        <div
+          class="text-primary text-uppercase row justify-center items-center"
+          style="margin-top: -12px; font-size: 1rem; text-align: center"
+        >
+          Envia Foto
+        </div>
       </div>
-      <div class="col flex flex-center">
+      <div class="col-2"></div>
+      <div class="col">
         <q-btn
-          icon="mdi-map-marker-radius-outline"
+          style="z-index: 3; left: 12%"
           flat
-          class="q-pa-xs q-mt-lg text-secondary"
-          style="font-size: 2rem"
+          class="row justify-center items-center"
+          size="50px"
+          color="primary"
+          icon="las la-map-marked-alt"
         />
-        <div class="text-secondary text-uppercase">ENVIAR LOCALIZAÇÃO</div>
+        <div
+          class="text-primary text-uppercase row justify-center items-center"
+          style="margin-top: -12px; font-size: 1rem; text-align: center"
+        >
+          Enviar Localização
+        </div>
       </div>
+    </div>
+    <div class="q-pa-md flex flex-center">
+      <q-btn color="secondary" size="22px" icon-right="save" label="Enviar Informações" />
     </div>
   </div>
 </template>
