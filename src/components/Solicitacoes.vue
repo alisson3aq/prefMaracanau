@@ -38,7 +38,7 @@
       </div>
     </div>
     <div class="q-pa-md flex flex-center">
-      <q-btn color="secondary" size="22px" icon-right="save" label="Enviar Informações" />
+      <q-btn color="secondary" size="18px" icon-right="save" label="Enviar Informações" />
     </div>
   </div>
 </template>
