@@ -3,8 +3,12 @@
     <q-item>
       <q-item-section avatar>
         <q-avatar size="70px" class="shadow-4">
-          <img
+          <!-- <img
             src="https://cdn.quasar.dev/img/avatar1.jpg"
+            style="border: 0.07em solid green"
+          />-->
+          <img
+            src="https://github.com/aalissonaq.png"
             style="border: 0.07em solid green"
           />
         </q-avatar>
