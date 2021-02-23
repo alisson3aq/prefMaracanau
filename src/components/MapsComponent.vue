@@ -10,13 +10,19 @@
         :center="myCoordenates"
         :zoom="zoom"
         :options="options"
-        style="width: 100%; height: 70vh; overflow: hidden; top: 0vh"
+        style="width: 100%; height: 99vh; overflow: hidden; top: 0vh"
       >
         <gmap-marker
           v-for="marker in markers"
           :key="marker.key"
           :position="marker"
           :icon="icon"
+        >
+        </gmap-marker>
+        <gmap-marker
+          v-for="marker_user in markers_user"
+          :key="marker_user.key"
+          :position="marker_user"
         >
         </gmap-marker>
       </gmap-map>
@@ -49,6 +55,7 @@ export default {
         // { lat: -7.219782987960319, lng: -39.31156474413836 },
         // { lat: -7.233893167744179, lng: -39.31593939096388 },
       ],
+      markers_user: [],
       options: {
         zoomControl: false,
         mapTypeControl: false,
@@ -68,6 +75,7 @@ export default {
           let lng = coordenates.lng + (Math.random() * 3) / 1000;
           let coord = { lat, lng };
           this.markers.push(coord);
+          this.markers_user.push(coordenates);
         }
       })
       .catch((error) => alert(error));

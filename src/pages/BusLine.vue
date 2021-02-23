@@ -10,7 +10,7 @@
 
     <!--    <div class="q-pa-md" style="max-width: 600px">
     </div> -->
-    <q-scroll-area style="height: 65vh; top: -3vh" fit rounded-borders>
+    <q-scroll-area style="height: 70vh; top: -3vh" fit rounded-borders>
       <maps-component />
     </q-scroll-area>
     <q-footer class="bg-white text-primary">
